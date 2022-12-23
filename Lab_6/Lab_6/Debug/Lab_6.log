@@ -1,0 +1,4 @@
+﻿  Lab_6.cpp
+D:\Поликек\3 семестр\Проганье\Lab_6\Lab_6\Lab_6.cpp(34,2): warning C4286: std::range_error: перехвачено базовым классом ("std::exception") в строке 31
+D:\Поликек\3 семестр\Проганье\Lab_6\Lab_6\Lab_6.cpp(37,2): warning C4286: std::logic_error: перехвачено базовым классом ("std::exception") в строке 31
+  Lab_6.vcxproj -> D:\Поликек\3 семестр\Проганье\Lab_6\Debug\Lab_6.exe

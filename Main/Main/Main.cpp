@@ -2,12 +2,11 @@
 #include "AVL_tree.h"
 
 int main() {
-	srand(time(NULL));
 	int n, key;
 	std::cout << "Enter size\n";
 	std::cin >> n;
 	std::cout << "Enter numbers\n";
-	AVL_tree* tree = new AVL_tree(n);//Указатель на объект
+	AVL_tree* tree = new AVL_tree(n);
 	tree->Print(tree->Get_root());
 	std::cout << "\n";
 	tree->exits(tree->Get_root());
@@ -34,6 +33,6 @@ int main() {
 		std::cout << "Choose operation: INSERT, DELETE, SEARCH, PRINT, END.\n";
 		std::cin >> command;
 	}
-	system("cls");//очистка экрана
+	system("cls");
 	std::cout << "Finish of program work";
 }

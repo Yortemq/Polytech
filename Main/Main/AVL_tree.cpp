@@ -1,5 +1,5 @@
 #include "AVL_tree.h"
-#include <queue>//подключаем очередь
+#include <queue>
 AVL_tree::AVL_tree(int size) {
 	for (int i = 0; i < size; i++) {
 		int t;
@@ -32,8 +32,7 @@ void AVL_tree::Insert(int key) {
 		Balance(root, key);
 	}
 }
-void AVL_tree::Find_node(Node*& node, int key) {//ищет место куда вставить узел если корень есть
-	if (node->key > key && node->left) {
+void AVL_tree::Find_node(Node*& node, int key) {
 		node = node->left;
 		Find_node(node, key);
 	}
